@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="ZDominionSilverlight.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="755" d:DesignWidth="849">
+
+    <Grid x:Name="LayoutRoot" Background="White" Width="840" Height="768">
+        <Button Content="Dominion" Height="61" HorizontalAlignment="Left" Margin="107,12,0,0" Name="button_Dominion" VerticalAlignment="Top" Width="75" Click="button_Dominion_Click" />
+        <Button Content="Intrigue" Height="61" HorizontalAlignment="Left" Margin="187,12,0,0" Name="button_Intrigue" VerticalAlignment="Top" Width="75" Click="button_Intrigue_Click" />
+        <Button Content="Seaside" Height="61" HorizontalAlignment="Left" Margin="269,12,0,0" Name="button_Seaside" VerticalAlignment="Top" Width="75" Click="button_Seaside_Click" />
+        <Button Content="Alchemy" Height="61" HorizontalAlignment="Left" Margin="349,12,0,0" Name="button_Alchemy" VerticalAlignment="Top" Width="75" Click="button_Alchemy_Click" />
+        <Button Content="Prosperity" Height="61" HorizontalAlignment="Left" Margin="431,12,0,0" Name="button_Prosperity" VerticalAlignment="Top" Width="75" Click="button_Prosperity_Click" />
+        <Button Content="Cornucopia" Height="61" HorizontalAlignment="Left" Margin="511,12,0,0" Name="button_Cornucopia" VerticalAlignment="Top" Width="75" Click="button_Cornucopia_Click" />
+        <Button Content="Hinterlands" Height="61" HorizontalAlignment="Left" Margin="593,12,0,0" Name="button_Hinterlands" VerticalAlignment="Top" Width="75" Click="button_Hinterlands_Click" />
+        <Button Content="PromoCards" Height="61" HorizontalAlignment="Left" Margin="673,12,0,0" Name="button_PromoCards" VerticalAlignment="Top" Width="75" Click="button_PromoCards_Click" />
+        <Image Height="237" HorizontalAlignment="Left" Margin="42,114,0,0" Name="pictureBox1" Stretch="Fill" VerticalAlignment="Top" Width="148" />
+        <Image Height="237" HorizontalAlignment="Left" Margin="196,114,0,0" Name="pictureBox2" Stretch="Fill" VerticalAlignment="Top" Width="148" />
+        <Image Height="237" HorizontalAlignment="Left" Margin="350,114,0,0" Name="pictureBox3" Stretch="Fill" VerticalAlignment="Top" Width="148" />
+        <Image Height="237" HorizontalAlignment="Left" Margin="504,114,0,0" Name="pictureBox4" Stretch="Fill" VerticalAlignment="Top" Width="148" />
+        <Image Height="237" HorizontalAlignment="Left" Margin="658,114,0,0" Name="pictureBox5" Stretch="Fill" VerticalAlignment="Top" Width="148" />
+        <Image Height="237" HorizontalAlignment="Left" Margin="42,398,0,0" Name="pictureBox6" Stretch="Fill" VerticalAlignment="Top" Width="148" />
+        <Image Height="237" HorizontalAlignment="Left" Margin="196,398,0,0" Name="pictureBox7" Stretch="Fill" VerticalAlignment="Top" Width="148" />
+        <Image Height="237" HorizontalAlignment="Left" Margin="350,398,0,0" Name="pictureBox8" Stretch="Fill" VerticalAlignment="Top" Width="148" />
+        <Image Height="237" HorizontalAlignment="Left" Margin="504,398,0,0" Name="pictureBox9" Stretch="Fill" VerticalAlignment="Top" Width="148" />
+        <Image Height="237" HorizontalAlignment="Left" Margin="658,398,0,0" Name="pictureBox10" Stretch="Fill" VerticalAlignment="Top" Width="148" />
+        <Button Content="Go" Height="63" HorizontalAlignment="Left" Margin="42,670,0,0" Name="button_Go" VerticalAlignment="Top" Width="764" Click="button1_Click"/>
+    </Grid>
+</UserControl>
